@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="imgData.js"></script>
+  
+</head>
+<body>
+    <div class="content">
+        <div class="menu left">
+            <h1>Add data to img</h1>
+            <h3>Img</h3>
+            <div>
+                <input type="checkbox" name="" id="px-mode">
+                <label for="px-mode">Pixel Mode</label>
+            </div>
+
+            <h3>Img file</h3>
+            <input type="file" name="" id="in-img">
+            <h3>File</h3>
+            <input type="file" name="" id="in-file">
+
+            <img class="thumb" src="" alt="" id="l-thumb">
+            <button type="button" id="add-data">Add Data To Img</button>
+
+            <hr>
+        </div>
+      
+        <div class="menu right">
+            <h1>Add data to img</h1>
+            <h3>Img</h3>
+
+            <div>
+                <input type="checkbox" name="" id="px-mode-out">
+                <label for="px-mode-out">Pixel Mode</label>
+            </div>
+            <h3>Img file</h3>
+            <input type="file" name="" id="out-img">
+            
+            <img class="thumb" src="" alt="" id="r-thumb">
+            
+            <h3>Data: </h3>
+            <a style="display: none;" href="" id="down" download="" target="_blank"><h3>Download</h3></a>
+            
+            <img src="" alt="" class="thumb" style="display: none;" id="out-res">
+            <video src="" autoplay controls style="display: none;" id="vid" class="thumb"></video>
+            
+            <hr>
+        </div>
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+</html>
